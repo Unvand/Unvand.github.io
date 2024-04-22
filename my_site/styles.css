@@ -1,0 +1,137 @@
+/* Общие стили */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Задний фон черный */
+    color: #fff; /* Белый текст */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стили для заголовков страниц */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Стили для навигационного меню */
+
+header {
+    background-color: #333; /* Цвет фона для шапки */
+    padding: 10px 0; /* Отступы для навигации */
+    background-image: url('фон для шапки1.jpg'); /* Задний фон для шапки */
+    background-size: cover; /* Растягивание фона на всю ширину и высоту шапки */
+    background-position: center; /* Выравнивание фона по центру */
+    padding: 10px 0; /* Отступы для навигации */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Белый текст для ссылок */
+}
+
+/* Стили для контента на каждой странице */
+
+/* Главная страница */
+#index-content {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Резюме */
+.resume-content {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Биография */
+.bio-content {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Фотогалерея */
+.gallery-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Картинки с текстами идут вниз */
+    align-items: center; /* Выравнивание по центру */
+}
+
+.gallery-content figure {
+    text-align: center;
+    margin-bottom: 20px; /* Отступ между изображениями */
+}
+
+.gallery-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Контакты */
+.contacts-content ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center; /* Центрирование текста в списке */
+}
+
+.contacts-content p {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+.contacts-content ul li {
+    margin-bottom: 10px;
+    display: flex; /* Использование flexbox для выравнивания элементов */
+    align-items: center; /* Выравнивание элементов по вертикали */
+    justify-content: center; /* Центрирование содержимого по горизонтали */
+}
+
+.contacts-content ul li:nth-child(1) img {
+    width: 50px; /* Установка размеров для первого изображения */
+    height: 30px;
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+.contacts-content ul li:nth-child(2) img {
+    width: 30px; /* Установка размеров для второго изображения */
+    height: 30px;
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+
+
+
+/* Медиазапросы для адаптивного дизайна */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    
+}
+
+
+
