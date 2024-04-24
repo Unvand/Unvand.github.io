@@ -4,8 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Задний фон черный */
-    color: #fff; /* Белый текст */
+    background-color: #000; 
+    color: #fff; 
 }
 
 .container {
@@ -29,12 +29,12 @@ h2, h3, h4 ,h5 ,h6 ,h7, h8 , h9{
 /* Стили для навигационного меню */
 
 header {
-    background-color: #333; /* Цвет фона для шапки */
-    padding: 10px 0; /* Отступы для навигации */
+    background-color: #333; 
+    padding: 10px 0; 
     background-image: url('фон для шапки1.jpg'); /* Задний фон для шапки */
     background-size: cover; /* Растягивание фона на всю ширину и высоту шапки */
     background-position: center; /* Выравнивание фона по центру */
-    padding: 10px 0; /* Отступы для навигации */
+    padding: 10px 0; 
 }
 
 nav ul {
@@ -54,7 +54,7 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Белый текст для ссылок */
+    color: #fff; 
 }
 
 /* Стили для контента на каждой странице */
@@ -62,35 +62,35 @@ nav ul li a {
 /* Главная страница */
 #index-content {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
 }
 
 /* Резюме */
 .resume-content {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
 }
 .resume-content h2 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
 .resume-content h3 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
 .resume-content h4 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
 .resume-content h5 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
@@ -98,23 +98,23 @@ nav ul li a {
 /* Биография */
 .bio-content {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
 }
 .bio-content h2 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
 .bio-content h3 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
 .bio-content h4 {
     margin-top: 20px;
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
     font-size: 1em;
     font-weight: normal;
 }
@@ -124,12 +124,12 @@ nav ul li a {
     margin-top: 20px;
     display: flex;
     flex-direction: column; /* Картинки с текстами идут вниз */
-    align-items: center; /* Выравнивание по центру */
+    align-items: center; 
 }
 
 .gallery-content figure {
     text-align: center;
-    margin-bottom: 20px; /* Отступ между изображениями */
+    margin-bottom: 20px; 
 }
 
 .gallery-content img {
@@ -141,17 +141,17 @@ nav ul li a {
 .contacts-content ul {
     padding: 0;
     list-style-type: none;
-    text-align: center; /* Центрирование текста в списке */
+    text-align: center; 
 }
 
 .contacts-content h2 {
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; 
 }
 
 
 .contacts-content ul li {
     margin-bottom: 10px;
-    display: flex; /* Использование flexbox для выравнивания элементов */
+    display: flex; 
     align-items: center; /* Выравнивание элементов по вертикали */
     justify-content: center; /* Центрирование содержимого по горизонтали */
 }
@@ -163,9 +163,9 @@ nav ul li a {
 }
 
 .contacts-content ul li:nth-child(2) img {
-    width: 30px; /* Установка размеров для второго изображения */
+    width: 30px; 
     height: 30px;
-    margin-right: 10px; /* Отступ между изображением и текстом */
+    margin-right: 10px; 
 }
 
 
