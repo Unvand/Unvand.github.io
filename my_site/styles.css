@@ -70,6 +70,30 @@ nav ul li a {
     margin-top: 20px;
     text-align: center; /* Выравнивание текста по центру */
 }
+.resume-content h2 {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 1em;
+    font-weight: normal;
+}
+.resume-content h3 {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 1em;
+    font-weight: normal;
+}
+.resume-content h4 {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 1em;
+    font-weight: normal;
+}
+.resume-content h5 {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 1em;
+    font-weight: normal;
+}
 
 /* Биография */
 .bio-content {
