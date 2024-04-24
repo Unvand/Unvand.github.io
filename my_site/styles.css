@@ -70,6 +70,15 @@ nav ul li a {
     margin-top: 20px;
     text-align: center; /* Выравнивание текста по центру */
 }
+.bio-content h2 {
+    text-align: center; /* Выравнивание текста по центру */
+}
+.bio-content h3 {
+    text-align: center; /* Выравнивание текста по центру */
+}
+.bio-content h4 {
+    text-align: center; /* Выравнивание текста по центру */
+}
 
 /* Фотогалерея */
 .gallery-content {
