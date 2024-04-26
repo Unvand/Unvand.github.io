@@ -159,10 +159,10 @@ nav ul li a {
     margin-right: 5px; /* Отступ между изображением и текстом */
 }
 
-.contacts-content table td:first-child {
-    width: 50px; /* Установка ширины первой колонки */
-    height: 25px; /* Установка высоты второй иконки */
-    margin-right: 10px; 
+.contacts-content table td:first-child img {
+    width: 50px; /* Установка ширины первой иконки */
+    height: 30px; /* Установка высоты первой иконки */
+    margin-right: 10px; /* Отступ между первой иконкой и текстом */
 }
 
 .contacts-content table td:last-child img {
@@ -170,6 +170,7 @@ nav ul li a {
     height: 20px; /* Установка высоты второй иконки */
     margin-right: 10px; /* Отступ между второй иконкой и текстом */
 }
+
 
 
 
