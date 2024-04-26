@@ -149,48 +149,25 @@ nav ul li a {
 }
 
 
-.contacts-content ul li {
+.contacts-content table td {
     margin-bottom: 10px;
     display: flex; 
     align-items: center; /* Выравнивание элементов по вертикали */
     justify-content: center; /* Центрирование содержимого по горизонтали */
 }
 
-.contacts-content ul li:nth-child(1) img {
+ .contacts-content table td:nth-child(1) img {
     width: 50px; /* Установка размеров для первого изображения */
     height: 30px;
     margin-right: 10px; /* Отступ между изображением и текстом */
 }
 
-.contacts-content ul li:nth-child(2) img {
+.contacts-content table td:nth-child(2) img {
     width: 30px; 
     height: 30px;
     margin-right: 10px; 
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 8px;
-    text-align: center; /* Центрирование текста в ячейках */
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-td img {
-    display: inline-block; /* Размещение изображений в строке */
-    vertical-align: middle; /* Выравнивание изображений по вертикали */
-    margin-right: 5px; /* Отступ между изображением и текстом */
-}
-
-tr:not(:first-child) td {
-    border-top: none; /* Удаление верхней границы для всех ячеек кроме первой строки */
-}
 
 
 
