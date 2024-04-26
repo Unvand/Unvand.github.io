@@ -156,19 +156,19 @@ nav ul li a {
 
 .contacts-content table td img {
     vertical-align: middle; /* Выравнивание изображений по вертикали */
-    margin-right: 5px; /* Отступ между изображением и текстом */
+    margin-right: 2px; /* Отступ между изображением и текстом */
 }
 
 .contacts-content table td:first-child img {
     width: 50px; /* Установка ширины первой иконки */
     height: 30px; /* Установка высоты первой иконки */
-    margin-right: 10px; /* Отступ между первой иконкой и текстом */
+    margin-right: 5px; /* Отступ между первой иконкой и текстом */
 }
 
 .contacts-content table td:last-child img {
     width: 30px; /* Установка ширины второй иконки */
     height: 20px; /* Установка высоты второй иконки */
-    margin-right: 10px; /* Отступ между второй иконкой и текстом */
+    margin-right: 5px; /* Отступ между второй иконкой и текстом */
 }
 
 
