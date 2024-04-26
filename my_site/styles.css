@@ -139,17 +139,13 @@ nav ul li a {
 
 /* Контакты */
 .contacts-content table {
-    padding: 0;
-    list-style-type: none;
+    width: 100%;
+    border-collapse: collapse;
     text-align: center; /* Центрирование содержимого таблицы по горизонтали */
 }
 
-.contacts-content h2 {
-    text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
-}
-
 .contacts-content table td {
-    text-align: center; /* Выравнивание содержимого по центру */
+    padding: 10px; /* Поля внутри ячеек таблицы */
 }
 
 .contacts-content table td img {
@@ -157,27 +153,16 @@ nav ul li a {
     margin-right: 5px; /* Отступ между изображением и текстом */
 }
 
-
-.contacts-content table {
-    padding: 0;
-    list-style-type: none;
-    text-align: center; 
-}
-
-.contacts-content h2 {
-    text-align: center; 
-}
-
- .contacts-content tr td:nth-child(1) img {
-    width: 50px; /* Установка размеров для первого изображения */
-    height: 30px;
-    margin-right: 10px; /* Отступ между изображением и текстом */
-}
-
-.contacts-content tr td:nth-child(2) img {
-    width: 30px; 
-    height: 25px;
+.contacts-content table td:first-child {
+    width: 50px; /* Установка ширины первой колонки */
+    height: 25px; /* Установка высоты второй иконки */
     margin-right: 10px; 
+}
+
+.contacts-content table td:last-child img {
+    width: 30px; /* Установка ширины второй иконки */
+    height: 25px; /* Установка высоты второй иконки */
+    margin-right: 10px; /* Отступ между второй иконкой и текстом */
 }
 
 
