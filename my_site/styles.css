@@ -156,13 +156,13 @@ nav ul li a {
     justify-content: center; /* Центрирование содержимого по горизонтали */
 }
 
- .contacts-content table td:nth-child(1) img {
+ .contacts-content tr td:nth-child(1) img {
     width: 50px; /* Установка размеров для первого изображения */
     height: 30px;
     margin-right: 10px; /* Отступ между изображением и текстом */
 }
 
-.contacts-content table td:nth-child(2) img {
+.contacts-content tr td:nth-child(2) img {
     width: 30px; 
     height: 30px;
     margin-right: 10px; 
