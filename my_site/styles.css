@@ -139,6 +139,11 @@ nav ul li a {
 
 /* Контакты */
 
+.contacts-content .table_c tr td img {
+    margin-right: 10px; /* Установка отступа справа для изображений */
+}
+
+
 .contacts-content h2 {
   text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
 }
@@ -152,6 +157,7 @@ nav ul li a {
 
 .table_c td {
     padding: 10px;
+    text-align: center;
 }
 
 .table_c td img {
