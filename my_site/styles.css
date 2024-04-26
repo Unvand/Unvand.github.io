@@ -148,6 +148,14 @@ nav ul li a {
     text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
 }
 
+.contacts-content table td {
+    text-align: center; /* Выравнивание содержимого по центру */
+}
+
+.contacts-content table td img {
+    vertical-align: middle; /* Выравнивание изображений по вертикали */
+    margin-right: 5px; /* Отступ между изображением и текстом */
+}
 
 
 .contacts-content table {
@@ -158,14 +166,6 @@ nav ul li a {
 
 .contacts-content h2 {
     text-align: center; 
-}
-
-
-.contacts-content table td {
-    margin-bottom: 10px;
-    display: flex; 
-    align-items: center; /* Выравнивание элементов по вертикали */
-    justify-content: center; /* Центрирование содержимого по горизонтали */
 }
 
  .contacts-content tr td:nth-child(1) img {
