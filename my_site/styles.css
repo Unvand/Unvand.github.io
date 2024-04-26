@@ -138,7 +138,7 @@ nav ul li a {
 }
 
 /* Контакты */
-.contacts-content ul {
+.contacts-content table {
     padding: 0;
     list-style-type: none;
     text-align: center; 
