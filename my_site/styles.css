@@ -161,7 +161,7 @@ nav ul li a {
 
 .contacts-content table td:last-child img {
     width: 30px; /* Установка ширины второй иконки */
-    height: 25px; /* Установка высоты второй иконки */
+    height: 20px; /* Установка высоты второй иконки */
     margin-right: 10px; /* Отступ между второй иконкой и текстом */
 }
 
