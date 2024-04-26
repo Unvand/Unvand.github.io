@@ -141,6 +141,18 @@ nav ul li a {
 .contacts-content table {
     padding: 0;
     list-style-type: none;
+    text-align: center; /* Центрирование содержимого таблицы по горизонтали */
+}
+
+.contacts-content h2 {
+    text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
+}
+
+
+
+.contacts-content table {
+    padding: 0;
+    list-style-type: none;
     text-align: center; 
 }
 
