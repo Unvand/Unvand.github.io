@@ -140,36 +140,35 @@ nav ul li a {
 /* Контакты */
 
 .contacts-content h2 {
-    text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
+  text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
 }
 
 .contacts-content table {
-    border-collapse: collapse;
-    text-align: center; /* Центрирование содержимого таблицы по горизонтали */
-    width: 50%; /* Установка ширины таблицы */
-    margin: 0 auto; /* Выравнивание таблицы по центру */
+  border-collapse: collapse;
+  margin: 0 auto; /* Выравнивание таблицы по центру */
 }
 
 .contacts-content table td {
-    padding: 10px; /* Поля внутри ячеек таблицы */
+  display: flex; /* Размещение элементов в строке */
+  align-items: center; /* Выравнивание элементов по центру */
+  padding: 10px;
 }
 
 .contacts-content table td img {
-    vertical-align: middle; /* Выравнивание изображений по вертикали */
-    margin-right: 2px; /* Отступ между изображением и текстом */
+  margin-right: 10px; /* Отступ между иконкой и текстом */
+  vertical-align: middle; /* Выравнивание изображений по вертикали */
 }
 
 .contacts-content table td:first-child img {
-    width: 50px; /* Установка ширины первой иконки */
-    height: 30px; /* Установка высоты первой иконки */
-    margin-right: 100px; /* Отступ между первой иконкой и текстом */
+  width: 50px; /* Установка ширины первой иконки */
+  height: 30px; /* Установка высоты первой иконки */
 }
 
 .contacts-content table td:last-child img {
-    width: 30px; /* Установка ширины второй иконки */
-    height: 20px; /* Установка высоты второй иконки */
-    margin-right: -00px; /* Отступ между второй иконкой и текстом */
+  width: 30px; /* Установка ширины второй иконки */
+  height: 20px; /* Установка высоты второй иконки */
 }
+
 
 
 
