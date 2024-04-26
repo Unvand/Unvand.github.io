@@ -138,6 +138,15 @@ nav ul li a {
 }
 
 /* Контакты */
+
+.contacts-content table {
+    width: 80%; /* Установка ширины таблицы */
+    margin: 0 auto; /* Выравнивание таблицы по центру */
+    border-collapse: collapse;
+    text-align: center; /* Центрирование содержимого таблицы по горизонтали */
+}
+
+
 .contacts-content table {
     width: 100%;
     border-collapse: collapse;
