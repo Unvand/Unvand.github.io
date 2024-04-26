@@ -169,6 +169,36 @@ nav ul li a {
   height: 20px; /* Установка высоты второй иконки */
 }
 
+/* Адаптивность для одного изображения */
+@media (max-width: 400px) {
+  .contacts-content table {
+    display: flex; /* Размещение элементов в строке */
+    flex-direction: column; /* Размещение элементов друг под другом */
+    justify-content: center; /* Центрирование по вертикали */
+    width: 100%; /* Занимаем всю ширину */
+  }
+  
+  .contacts-content table td {
+    width: 100%; /* Занимаем всю ширину */
+    margin-bottom: 10px; /* Отступ между строками */
+  }
+}
+
+/* Адаптивность для двух изображений */
+@media (min-width: 401px) and (max-width: 768px) {
+  .contacts-content table {
+    display: flex; /* Размещение элементов в строке */
+    justify-content: space-between; /* Равномерное распределение элементов по ширине */
+    width: 100%; /* Занимаем всю ширину */
+  }
+  
+  .contacts-content table td {
+    width: 48%; /* Занимаем половину ширины */
+    margin-bottom: 10px;
+  }
+}
+
+
 
 
 
