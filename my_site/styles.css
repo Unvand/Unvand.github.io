@@ -143,59 +143,32 @@ nav ul li a {
   text-align: center; /* Центрирование заголовка "Связь со мной" по центру */
 }
 
-.contacts-content table {
-  border-collapse: collapse;
-  margin: 0 auto; /* Выравнивание таблицы по центру */
+.table_c {
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.contacts-content table td {
-  display: flex; /* Размещение элементов в строке */
-  align-items: center; /* Выравнивание элементов по центру */
-  padding: 10px;
+.table_c td {
+    padding: 10px;
 }
 
-.contacts-content table td img {
-  margin-right: 10px; /* Отступ между иконкой и текстом */
-  vertical-align: middle; /* Выравнивание изображений по вертикали */
+.table_c td img {
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
-.contacts-content table td:first-child img {
-  width: 50px; /* Установка ширины первой иконки */
-  height: 30px; /* Установка высоты первой иконки */
+.table_c td:first-child {
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
 }
 
-.contacts-content table td:last-child img {
-  width: 30px; /* Установка ширины второй иконки */
-  height: 20px; /* Установка высоты второй иконки */
-}
-
-/* Адаптивность для одного изображения */
-@media (max-width: 400px) {
-  .contacts-content table {
-    display: flex; /* Размещение элементов в строке */
-    flex-direction: column; /* Размещение элементов друг под другом */
-    justify-content: center; /* Центрирование по вертикали */
-    width: 100%; /* Занимаем всю ширину */
-  }
-  
-  .contacts-content table td {
-    width: 100%; /* Занимаем всю ширину */
-    margin-bottom: 10px; /* Отступ между строками */
-  }
-}
-
-/* Адаптивность для двух изображений */
-@media (min-width: 401px) and (max-width: 768px) {
-  .contacts-content table {
-    display: flex; /* Размещение элементов в строке */
-    justify-content: space-between; /* Равномерное распределение элементов по ширине */
-    width: 100%; /* Занимаем всю ширину */
-  }
-  
-  .contacts-content table td {
-    width: 48%; /* Занимаем половину ширины */
-    margin-bottom: 10px;
-  }
+.table_c td:last-child img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 
