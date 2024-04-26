@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Контакты</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <header class="contacts-header">
@@ -21,17 +35,22 @@
     </nav>
     <section class="contacts-content">
         <h2>Связь со мной:</h2> 
-        <ul>
-            <li>
-                <img src="вк123.jpg" alt="VK">
-                <a href="https://vk.com/unvand">https://vk.com/unvand</a>
-            </li>
-            <li>
-                <img src="гм1.jpg" alt="Gmail">
-                <a href="mailto:unvand@gmail.com">unvand@gmail.com</a>
-            </li>
-        </ul>
+        <table>
+            <tr>
+                <th>Контакт</th>
+                <th>Ссылка</th>
+            </tr>
+            <tr>
+                <td><img src="вк123.jpg" alt="VK"></td>
+                <td><a href="https://vk.com/unvand">https://vk.com/unvand</a></td>
+            </tr>
+            <tr>
+                <td><img src="гм1.jpg" alt="Gmail"></td>
+                <td><a href="mailto:unvand@gmail.com">unvand@gmail.com</a></td>
+            </tr>
+        </table>
     </section>
 </body>
 </html>
+
 
